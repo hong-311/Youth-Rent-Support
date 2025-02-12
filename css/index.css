@@ -1,0 +1,34 @@
+#wrap { 
+    background: url(../img/index-img.png) 
+    no-repeat; min-height: 100vh; 
+    background-position: center bottom; 
+    background-size: 70%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 12rem;
+}
+
+#wrap .img_wrap { 
+    text-align: center;
+}
+
+#wrap .img_wrap img { 
+    width: 70%; 
+    max-width: 35rem;
+}
+
+#wrap .link { 
+    text-align: center; 
+    font-size: 1.7rem; 
+    display: block; 
+    width:80%; 
+    max-width: 35rem; 
+    margin: 0 auto; 
+    padding: 1.5rem 0; 
+    background: #0c53c7; 
+    color: #fff; 
+    border-radius: 10px; 
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 15px;
+}

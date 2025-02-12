@@ -1,0 +1,190 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+#wrap * {
+    font-family: 'NanumSquare';
+}
+
+header {
+    padding: 1.5rem;
+    border-bottom: 2px solid #ebf4fb;
+}
+
+header img {
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    border: 2px solid #eaeaea;
+    border-radius: 1.5rem 1.5rem 0 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 4px 0px inset;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+footer ul li {
+    text-align: center;
+    border-right: 1px solid #ebeff3;
+    width: 20%;
+}
+
+footer ul li:last-child {
+    border-right: none;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #e3e3e3;
+    font-family: 'NanumSquare';
+}
+
+footer ul li.on a {
+    font-weight: 800;
+    color: #3f6182;
+}
+
+main {
+    padding: 2.5rem 1.5rem;
+    padding-bottom: 8rem;
+    min-height: calc(100vh - 6.5rem);
+}
+
+main .title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #486888;
+}
+
+main .box {
+    margin-top: 2rem;
+}
+
+main .box .bold {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #68aca2;
+}
+
+main .box .box_con {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #7c7f80;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#wrap .sub_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+#wrap .sub_title {
+    padding: 1rem;
+    display: inline-block;
+    color: #c6c6c6;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.3;
+    border-bottom: 1px solid #eaebec;
+    margin: 1.5rem 0;
+    width: 25%;
+    font-weight: 500;
+}
+
+#wrap .box2 {
+    display: none;
+    padding: 0.5rem 0 2rem;
+}
+
+#wrap .box2.active {
+    display: block;
+}
+
+#wrap .sub_title.active {
+    color: #426384;
+    font-weight: 800;
+    border-bottom: 2px solid #426384;
+}
+
+#wrap .box2 .con {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #7c7f80;
+    font-weight: 600;
+}
+
+#wrap .box2 .bold {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #4f9e93;
+    line-height: 1.5;
+    padding: 3rem 0 0.5rem;
+}
+
+#wrap .btn_wrap {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrap .btn_wrap p {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #4f9e93;
+}
+
+#wrap .btn_wrap .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #496989;
+    text-align: center;
+    padding: 1.5rem 3rem;
+    border-radius: 0.8rem;
+    line-height: 1.3;
+}
+
+#wrap .btn_wrap .a img {
+    width: 3%;
+    margin-left: 1rem;
+}
+
+#wrap .btn_wrap .b {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #357c70;
+    text-align: center;
+    padding: 1.5rem 4rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    line-height: 1.3;
+    justify-content: center;
+}
+
+#wrap .btn_wrap .b img {
+    width: 3%;
+    margin-left: 1rem;
+}
